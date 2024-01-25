@@ -3,6 +3,7 @@ The YouTube Data Harvesting and Warehousing project is a Python-based Streamlit 
 
 The project is designed to demonstrate how to harvest and warehouse YouTube data using SQL, MongoDB, and Streamlit. The first step is to collect data from YouTube using the YouTube Data API. The API provides access to a wide range of data, including channel information, video statistics, and viewer engagement metrics. The collected data can be stored in a variety of ways. In this project, we will use MongoDB and SQL. MongoDB is a NoSQL database that is well-suited for storing large amounts of unstructured data. SQL is a relational database that is well-suited for querying and analyzing structured data. The data can be stored in a data warehouse, which is a centralized repository for data. Data warehouses are used to store large amounts of data from a variety of sources. They can be used to analyze data, identify trends, and make predictions. The data can be analyzed using a variety of tools. In this project, we will use Streamlit. Streamlit is a Python library that can be used to create interactive web applications. We will use Streamlit to create a dashboard that allows users to visualize and analyze the data.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 #Used Toolset for this project:
 #YouTube API Calling
@@ -20,9 +21,16 @@ PostgreSQL, often referred to as PSQL, is utilized as a relational database mana
 #Streamlit
 Streamlit is employed to create a user-friendly and interactive analytics dashboard. With Streamlit, users can explore, analyze, and visualize YouTube data effortlessly through a web-based interface. Its simplicity and ease of use make it an excellent tool for rapidly developing data-driven applications, providing a seamless experience for researchers, content creators, and enthusiasts alike.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+How to Use:
+Run the Streamlit app by executing the Python file. The Streamlit UI will be displayed, providing an option to enter the Channel ID of the YouTube channel. You can enter a single channel ID or multiple channel IDs separated by commas.
 
+Click on "Check and Store the Data." This action will retrieve data from the respective YouTube channels and display the details in a table format.
 
+To facilitate easy access, click on the "Move Data to SQL" button. This will transfer all the collected data to the SQL database.
 
+The app features 10 selected questions. By choosing them, the data stored in the SQL database is retrieved, and the answers are displayed accordingly.
 
+Thank you.
 
